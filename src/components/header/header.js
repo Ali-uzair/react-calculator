@@ -2,6 +2,7 @@ import React from 'react'
 import "./header.css"
 
 function header() {
+
   return (
     <div className='header'>
       <div className='history'></div>
@@ -15,7 +16,7 @@ function header() {
       </div>
       <br />
       <p className='result'>
-        1452
+        1452+5+5+5+5+5+51252+165+15255+25151+26554
       </p>
     </div>
   )

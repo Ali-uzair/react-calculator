@@ -1,4 +1,36 @@
 .keypad {
   flex: 1.3;
   background-color: var(--bg-color-2);
+  padding: 20px;
+  display: flex;
 }
+.keypad p{
+  line-height: 1.875rem;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-2);
+  transition: 100ms;
+}
+.keys {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+}
+.keys p{
+  width: 33%;
+
+}
+.keys p:active{
+  background-color: rgba(0,0 ,0,0.14 );
+}
+.symbols {
+  flex: 1;
+}
+.symbols p{
+  width: 100%;
+  height: 15%;
+  color: var(--text-color-2);
+}
+
