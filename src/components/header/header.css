@@ -14,13 +14,11 @@
 .expression {
   overflow-x: scroll;
   width: 100%;
-
 }
 .expression p {
   white-space: nowrap;
   min-width: 100%;
   width: fit-content;
-
 }
 .result {
   font-weight: bold;

@@ -8,7 +8,7 @@
   --bg-color-1: #172d67;
   --bg-color-2: #050c26;
   --text-color-1: #fbfcfc;
-  --text-color-2: #bbbcbc ;
+  --text-color-2: #bbbcbc;
 }
 .App {
   background: #2a6c84;
@@ -21,7 +21,7 @@
   height: 500px;
   width: 280px;
   border-radius: 30px;
-  box-shadow: 1px -1px 20px rgba(0,0,0,0.15);
+  box-shadow: 1px -1px 20px rgba(0, 0, 0, 0.15);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -29,7 +29,7 @@
 }
 .navbar {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   background: transparent;
   min-height: 50px;
@@ -42,12 +42,12 @@
   height: 20px;
   width: 20px;
 }
- .navbar-toggle {
+.navbar-toggle {
   height: 20px;
   width: 30px;
   border-radius: 20px;
-  box-shadow: 1px 1px 40px 80px rgba(0,0,0,0.14);
- }
+  box-shadow: 1px 1px 40px 80px rgba(0, 0, 0, 0.14);
+}
 .navbar-circle {
   height: 15px;
   width: 15px;
@@ -55,7 +55,6 @@
   background-color: transparent;
   transition: 300ms;
 }
-.navbar-circle-active{
+.navbar-circle-active {
   margin-left: 15px;
 }
-
