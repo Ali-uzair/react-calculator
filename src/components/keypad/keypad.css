@@ -1,5 +1,6 @@
 .keypad {
-  flex: 1.3;
+  flex: 1;
+  height: 60%;
   background-color: var(--bg-color-2);
   padding: 20px;
   display: flex;
@@ -22,6 +23,7 @@
 }
 .keys p {
   width: 33%;
+  height: 9%;
 }
 .keys p:active {
   background-color: rgba(0, 0, 0, 0.14);
@@ -31,7 +33,7 @@
 }
 .symbols p {
   width: 100%;
-  height: 10.5%;
+  height: 10%;
   color: var(--text-color-2);
 }
 .symbols p:active {

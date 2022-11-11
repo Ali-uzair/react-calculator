@@ -46,7 +46,7 @@
   height: 20px;
   width: 30px;
   border-radius: 20px;
-  box-shadow: 1px 1px 40px 80px rgba(0, 0, 0, 0.14);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.14);
 }
 .navbar-circle {
   height: 15px;
@@ -54,6 +54,7 @@
   border-radius: 50%;
   background-color: transparent;
   transition: 300ms;
+
 }
 .navbar-circle-active {
   margin-left: 15px;
