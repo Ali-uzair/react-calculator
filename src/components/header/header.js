@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./header.css";
 
-function header() {
+const Header=(props) =>{
+  const resultref = useRef()
+  useEffect(()=>{
+    resultref.current.scrollIntoView()
+  },[])
   return (
     <div className="header">
       <div className="history"></div>
@@ -12,9 +16,11 @@ function header() {
         <p>4545+445</p>
       </div>
       <br />
-      <p className="result">1452+5+5+5+5+5+51252+165+15255+25151+26554</p>
+      <p>{props.result}</p>
+
+      <p ref={resultref} className="result">{props.expression}</p>
     </div>
   );
 }
 
-export default header;
+export default Header;
